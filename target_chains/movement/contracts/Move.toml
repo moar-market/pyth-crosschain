@@ -4,12 +4,12 @@ version = "0.0.1"
 upgrade_policy = "compatible"
 
 [dependencies]
-AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "movement" }
-MoveStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/move-stdlib/", rev = "movement" }
-AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib/", rev = "movement" }
-AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token/", rev = "movement" }
-Wormhole = { git = "https://github.com/wormhole-foundation/wormhole.git", subdir = "aptos/wormhole", rev = "b8676f09a6e4a92bbaecb5f3d59b5e9b778de082" }
-Deployer = { git = "https://github.com/wormhole-foundation/wormhole.git", subdir = "aptos/deployer", rev = "b8676f09a6e4a92bbaecb5f3d59b5e9b778de082" }
+AptosFramework = { git = "https://github.com/movementlabsxyz/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "movement" }
+MoveStdlib = { git = "https://github.com/movementlabsxyz/aptos-core.git", subdir = "aptos-move/framework/move-stdlib/", rev = "movement" }
+AptosStdlib = { git = "https://github.com/movementlabsxyz/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib/", rev = "movement" }
+AptosToken = { git = "https://github.com/movementlabsxyz/aptos-core.git", subdir = "aptos-move/framework/aptos-token/", rev = "movement" }
+Wormhole = { git = "https://github.com/moar-market/wormhole.git", subdir = "movement/wormhole", rev = "movement" }
+Deployer = { git = "https://github.com/moar-market/wormhole.git", subdir = "movement/deployer", rev = "movement" }
 
 [addresses]
 pyth = "_"
